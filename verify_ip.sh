@@ -19,4 +19,4 @@ validate_host_entry() {
 while read -r ip name _; do
     validate_host_entry "$ip" "$name"
 done < /etc/hosts
-
+echo "Studentul A: Caraeane Bogdan"
